@@ -23,7 +23,7 @@ public class Main {
         rover.execute("MMRMMRMRRM");
 
         rover.setPosition(5, 5, N);
-        rover.execute("MMMM");
+        rover.execute("EE");
 
     }
 }

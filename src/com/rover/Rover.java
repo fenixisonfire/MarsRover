@@ -93,10 +93,13 @@ public class Rover {
 
     // execute the specified string of commands
     public void execute(String commands) {
+        //if no movement command, print current position
+        if(commands.isEmpty())
+            System.out.println(finalPosition());
         for (int i = 0; i < commands.length(); i++) {
             //stop the robot if invalid command
             if (execute(commands.charAt(i)) == 0) {
-                System.out.println("The Rover's on-board computer crashed due to invalid command." + "Last seen at: " + finalPosition());
+                System.out.println("The Rover's on-board computer crashed due to invalid command. " + "Last seen at: " + finalPosition());
                 break;
             } else {
                 //check if the rover has driven past the plateau boundaries
