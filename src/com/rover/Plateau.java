@@ -1,13 +1,10 @@
 package com.rover;
 
 public class Plateau {
-    //default minimum values: bottom left corner
+    //default minimum values: bottom left corner (these never change)
     private final int min_X = 0, min_Y = 0;
     //default maximum values: top right corner
     private int max_X = 0, max_Y = 0;
-
-    public Plateau(){
-    }
 
     public void setSize(int input_max_x, int input_max_y){
         if(input_max_x < 1 || input_max_y < 1){

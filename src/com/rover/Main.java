@@ -10,11 +10,10 @@ public class Main {
 
         //Manual Testing
 
-        com.rover.Plateau plateau = new com.rover.Plateau();
+        Plateau plateau = new Plateau();
+        Rover rover = new Rover(plateau);
 
         plateau.setSize(5, 5);
-
-        com.rover.Rover rover = new com.rover.Rover(plateau);
 
         rover.setPosition(1, 2, N);
         rover.execute("LMLMLMLMM");

@@ -1,16 +1,20 @@
 package com.rover;
 
 public class Rover {
-    public static final Integer N = 1;
-    public static final Integer E = 2;
-    public static final Integer S = 3;
-    public static final Integer W = 4;
+    private static final Integer N = 1;
+    private static final Integer E = 2;
+    private static final Integer S = 3;
+    private static final Integer W = 4;
+
+    private static final String INVALID_ROVER_COMMAND = "The Rover's on-board computer crashed due to invalid command.";
+    private static final String OUT_OF_BOUND = "The rover drove off of the plateau into the darkness, never to be recovered!";
+    private static final String LAST_SEEN = "Last seen at:";
 
     private Integer x = 0;
     private Integer y = 0;
     private Integer current_direction = N;
 
-    private com.rover.Plateau plateau;
+    private Plateau plateau;
 
     public Rover(Plateau plateau) {
         this.plateau = plateau;
@@ -99,12 +103,12 @@ public class Rover {
         for (int i = 0; i < commands.length(); i++) {
             //stop the robot if invalid command
             if (execute(commands.charAt(i)) == 0) {
-                System.out.println("The Rover's on-board computer crashed due to invalid command. " + "Last seen at: " + finalPosition());
+                System.out.println(INVALID_ROVER_COMMAND + " " + LAST_SEEN + " " + finalPosition());
                 break;
             } else {
                 //check if the rover has driven past the plateau boundaries
                 if (!plateau.isPositionInBound(this.x, this.y)) {
-                    System.out.println("The rover drove off of the plateau into the darkness, never to be recovered! " + "Last seen at: " + finalPosition());
+                    System.out.println(OUT_OF_BOUND + " " + LAST_SEEN + " " + finalPosition());
                     break;
                 }
                 //print rover position at end of execution command

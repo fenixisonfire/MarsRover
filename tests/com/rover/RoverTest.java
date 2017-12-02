@@ -163,26 +163,6 @@ class RoverTest {
         assertEquals(expected_output, console_output.toString());
     }
 
-    //personalised test
-    @Test
-    public void personalised_test() throws Exception {
-        // get system out
-        ByteArrayOutputStream console_output = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(console_output));
-
-        // setup plateau
-        plateau.setSize(10, 10);
-
-        // setup first rover
-        rover.setPosition(2, 2, N);
-        rover.execute("LMRMMMMMRMMMMRMMMMLMMMMLMMMRMRMRMMMRMMLLMMLMMMLMLMLLLMMMRMRMMRMMMRMMMLMLMRMMRLMLRMLRMLRMLMRLMRLMRRMRMLM");
-
-        String expected_output = "1 8 N\r\n";
-
-        // assert that the console output matches the expected output
-        assertEquals(expected_output, console_output.toString());
-    }
-
     //invalid command check
     @Test
     public void invalid_command_test() throws Exception {
@@ -205,7 +185,7 @@ class RoverTest {
 
     //test the rover drives off of the plateau
     @Test
-    public void out_of_bounds() throws Exception {
+    public void out_of_bounds_test() throws Exception {
         // get system out
         ByteArrayOutputStream console_output = new ByteArrayOutputStream();
         System.setOut(new PrintStream(console_output));
@@ -226,7 +206,7 @@ class RoverTest {
 
     //test the error if a invalid plateau is specified, for instance 0 or negative width and height
     @Test
-    public void invalid_plateau() throws Exception {
+    public void invalid_plateau_test() throws Exception {
         // setup invalid plateau where width is 0
         Throwable exception = assertThrows(IllegalArgumentException.class, () -> {
             plateau.setSize(0, 5);
