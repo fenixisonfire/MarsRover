@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fc79bf8c-338c-450b-aedd-2f007b61ce9a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/rover/Main.java" afterPath="$PROJECT_DIR$/src/com/rover/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/rover/Plateau.java" afterPath="$PROJECT_DIR$/src/com/rover/Plateau.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/rover/Rover.java" afterPath="$PROJECT_DIR$/src/com/rover/Rover.java" />
-      <change beforePath="$PROJECT_DIR$/tests/com/rover/RoverTest.java" afterPath="$PROJECT_DIR$/tests/com/rover/RoverTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,9 +27,12 @@
       <file leaf-file-name="Rover.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/rover/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="110" column="78" lean-forward="false" selection-start-line="110" selection-start-column="78" selection-end-line="110" selection-end-column="78" />
-              <folding />
+            <state relative-caret-position="510">
+              <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+              <folding>
+                <element signature="e#1204#1205#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -376,17 +375,11 @@
       <updated>1512226798216</updated>
       <workItem from="1512226799500" duration="4109000" />
       <workItem from="1512230959199" duration="187000" />
-      <workItem from="1512231231920" duration="2838000" />
+      <workItem from="1512231231920" duration="4191000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RoverTest - 2017.12.02 at 16h 32m 28s.xml">
-      <configuration name="RoverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest - 2017.12.02 at 16h 34m 22s.xml">
-      <configuration name="RoverTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RoverTest - 2017.12.02 at 16h 35m 03s.xml">
       <configuration name="RoverTest" configurationId="JUnit" />
     </history-entry>
@@ -411,9 +404,15 @@
     <history-entry file="RoverTest - 2017.12.02 at 17h 00m 50s.xml">
       <configuration name="RoverTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RoverTest - 2017.12.02 at 17h 01m 13s.xml">
+      <configuration name="RoverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverTest - 2017.12.02 at 17h 23m 09s.xml">
+      <configuration name="RoverTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7134000" />
+    <option name="totallyTimeSpent" value="8487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -463,7 +462,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
           <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -497,7 +499,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
           <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -571,9 +576,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rover/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="110" column="78" lean-forward="false" selection-start-line="110" selection-start-column="78" selection-end-line="110" selection-end-column="78" />
-          <folding />
+        <state relative-caret-position="510">
+          <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+          <folding>
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
