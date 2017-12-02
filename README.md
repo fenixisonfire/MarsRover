@@ -3,8 +3,8 @@
 Application written with Java 9. Tests written with Junit 5.
 
 Get started: 
-1. Run RoverTest. (root/tests/com.rover/RoverTest)
-2. Run Main if you wish to test manually. (root/src/com.rover/Main)
+1. Run RoverTest. (root/tests/com/rover/RoverTest)
+2. Run Main if you wish to test manually. (root/src/com/rover/Main)
 
 Design:
 * Rover
